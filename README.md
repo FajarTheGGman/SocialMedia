@@ -9,5 +9,5 @@
 1.apt-get install git nodejs -y
 2.git clone https://github.com/FajarTheGGman/SocialMedia
 3.cd SocialMedia
-4.sh install.sh
+4.node social.js
 </pre>
