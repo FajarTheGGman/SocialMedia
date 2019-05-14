@@ -18,44 +18,44 @@ console.log(warna.blue("Version 1.0\n"))
 a.question("[Input User Profile] : ", (user) => {
     req("https://www.facebook.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
-            console.log(warna.red("Facebook => Not avaible"));
+            console.log(warna.red("https://www.facebook.com/`${user}` =>" + " Not avaible"));
         }else{
-            console.log(warna.green("Facebook => Avaible"));
+            console.log(warna.green("https://www.facebook.com/`${user}` =>" + " Avaible"));
         }
     })
     req("https://www.instagram.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
-            console.log(warna.red("Instagram => Not avaible"));
+            console.log(warna.red("https://www.instagram.com/`{$user}` =>" + " Not avaible"));
         }else{
-            console.log(warna.green("Instagram => Avaible"));
+            console.log(warna.green("https://www.instagram.com/${user} =>" + " Avaible"));
         }
     })
     req("https://github.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
-            console.log(warna.red("Github => Not avaible"));
+            console.log(warna.red("https://github.com/`${user}` => Not avaible"));
         }else{
-            console.log(warna.green("Github => Avaible"))
+            console.log(warna.green("https://github.com/`${user}` => Avaible"))
         }
     })
     req("https://twiter.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
-            console.log(warna.red("Twitter => Not avaible"));
+            console.log(warna.red("https://twiter.com/`${user}` => Not avaible"));
         }else{
-            console.log(warna.green("Twitter => Avaible"))
+            console.log(warna.green("https://twiter.com/`${user}` => Avaible"))
         }
     })
     req("https://youtube.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
-            console.log(warna.red("Youtube => Not avaible"));
+            console.log(warna.red("https://youtube.com/`${user}` => Not avaible"));
         }else{
-            console.log(warna.green("Youtube => Avaible"))
+            console.log(warna.green("https://youtube.com/`${user}` => Avaible"))
         }
     })
     req("https://soundcloud.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
-            console.log(warna.red("Soundcloud => Not avaible"));
+            console.log(warna.red("https://soundcloud.com/`${user}` => Not avaible"));
         }else{
-            console.log(warna.green("Soundcloud => Avaible"))
+            console.log(warna.green("https://soundcloud.com/`${user}` => Avaible"))
         }
     })
 })
