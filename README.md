@@ -2,7 +2,7 @@
 #Just a simple program to find social media account
 [Version 1.0]
 
-![alt text](https://github.com/FajarTheGGman/SocialMedia/blob/master/.img/Untitled.png)
+![alt text](https://github.com/FajarTheGGman/SocialMedia/blob/master/.img/122112421.PNG)
 
 # How to install 
 <pre>
