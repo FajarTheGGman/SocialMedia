@@ -16,6 +16,7 @@ console.log(warna.rainbow("[-=- SocialMedia By Fajar Firdaus -=-]\n"))
 console.log(warna.blue("Version 1.0\n"))
 
 a.question("[Input User Profile] : ", (user) => {
+    console.log(warna.red("\n[!] Type Ctrl + c to exit"));
     req("https://www.facebook.com/" + `${user}`, function(error, response, body){
         if(response.statusCode == 404){
             console.log(warna.red("https://www.facebook.com/`${user}` =>" + " Not avaible"));
@@ -57,5 +58,6 @@ a.question("[Input User Profile] : ", (user) => {
         }else{
             console.log(warna.green("https://soundcloud.com/`${user}` => Avaible"))
         }
-    })
+    });
+    
 })
