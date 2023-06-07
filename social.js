@@ -1,4 +1,3 @@
-// please don't recode my program because i take a long time to create this program :)
 // Copyright© by Fajar Firdaus
 
 var req = require("request");
